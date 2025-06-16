@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100vh; /* Full screen height */
+  width: 100%;    /* Full width */
+  
+  /* Background image */
+  background-image: url('./images/orlando-morning.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  /* font color */
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
